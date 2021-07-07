@@ -1,0 +1,848 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E28AEEB12696160500A10D08 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28AEEB02696160500A10D08 /* AppDelegate.swift */; };
+		E28AEEB32696160500A10D08 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28AEEB22696160500A10D08 /* SceneDelegate.swift */; };
+		E28AEEB52696160500A10D08 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28AEEB42696160500A10D08 /* ViewController.swift */; };
+		E28AEEB82696160500A10D08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E28AEEB62696160500A10D08 /* Main.storyboard */; };
+		E28AEEBA2696160700A10D08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E28AEEB92696160700A10D08 /* Assets.xcassets */; };
+		E28AEEBD2696160700A10D08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E28AEEBB2696160700A10D08 /* LaunchScreen.storyboard */; };
+		E28AEEC82696160700A10D08 /* PPCollageViewExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28AEEC72696160700A10D08 /* PPCollageViewExampleTests.swift */; };
+		E28AEED32696160700A10D08 /* PPCollageViewExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28AEED22696160700A10D08 /* PPCollageViewExampleUITests.swift */; };
+		E28AEEE4269617F300A10D08 /* PPCollageClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28AEEE3269617F300A10D08 /* PPCollageClass.swift */; };
+		E2B3FA0E2694C8C200242C70 /* PPCollageView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2B3FA042694C8C200242C70 /* PPCollageView.framework */; };
+		E2B3FA132694C8C200242C70 /* PPCollageViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B3FA122694C8C200242C70 /* PPCollageViewTests.swift */; };
+		E2B3FA152694C8C200242C70 /* PPCollageView.h in Headers */ = {isa = PBXBuildFile; fileRef = E2B3FA072694C8C200242C70 /* PPCollageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E28AEEC42696160700A10D08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2B3F9FB2694C8C200242C70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E28AEEAD2696160400A10D08;
+			remoteInfo = PPCollageViewExample;
+		};
+		E28AEECF2696160700A10D08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2B3F9FB2694C8C200242C70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E28AEEAD2696160400A10D08;
+			remoteInfo = PPCollageViewExample;
+		};
+		E2B3FA0F2694C8C200242C70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2B3F9FB2694C8C200242C70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E2B3FA032694C8C200242C70;
+			remoteInfo = PPCollageView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E28AEEAE2696160400A10D08 /* PPCollageViewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PPCollageViewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E28AEEB02696160500A10D08 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E28AEEB22696160500A10D08 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E28AEEB42696160500A10D08 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E28AEEB72696160500A10D08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E28AEEB92696160700A10D08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E28AEEBC2696160700A10D08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E28AEEBE2696160700A10D08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E28AEEC32696160700A10D08 /* PPCollageViewExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PPCollageViewExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E28AEEC72696160700A10D08 /* PPCollageViewExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PPCollageViewExampleTests.swift; sourceTree = "<group>"; };
+		E28AEEC92696160700A10D08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E28AEECE2696160700A10D08 /* PPCollageViewExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PPCollageViewExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E28AEED22696160700A10D08 /* PPCollageViewExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PPCollageViewExampleUITests.swift; sourceTree = "<group>"; };
+		E28AEED42696160700A10D08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E28AEEE3269617F300A10D08 /* PPCollageClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PPCollageClass.swift; sourceTree = "<group>"; };
+		E2B3FA042694C8C200242C70 /* PPCollageView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PPCollageView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2B3FA072694C8C200242C70 /* PPCollageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PPCollageView.h; sourceTree = "<group>"; };
+		E2B3FA082694C8C200242C70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2B3FA0D2694C8C200242C70 /* PPCollageViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PPCollageViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2B3FA122694C8C200242C70 /* PPCollageViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PPCollageViewTests.swift; sourceTree = "<group>"; };
+		E2B3FA142694C8C200242C70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E28AEEAB2696160400A10D08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E28AEEC02696160700A10D08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E28AEECB2696160700A10D08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2B3FA012694C8C200242C70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2B3FA0A2694C8C200242C70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2B3FA0E2694C8C200242C70 /* PPCollageView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E28AEEAF2696160400A10D08 /* PPCollageViewExample */ = {
+			isa = PBXGroup;
+			children = (
+				E28AEEB02696160500A10D08 /* AppDelegate.swift */,
+				E28AEEB22696160500A10D08 /* SceneDelegate.swift */,
+				E28AEEB42696160500A10D08 /* ViewController.swift */,
+				E28AEEB62696160500A10D08 /* Main.storyboard */,
+				E28AEEB92696160700A10D08 /* Assets.xcassets */,
+				E28AEEBB2696160700A10D08 /* LaunchScreen.storyboard */,
+				E28AEEBE2696160700A10D08 /* Info.plist */,
+			);
+			path = PPCollageViewExample;
+			sourceTree = "<group>";
+		};
+		E28AEEC62696160700A10D08 /* PPCollageViewExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				E28AEEC72696160700A10D08 /* PPCollageViewExampleTests.swift */,
+				E28AEEC92696160700A10D08 /* Info.plist */,
+			);
+			path = PPCollageViewExampleTests;
+			sourceTree = "<group>";
+		};
+		E28AEED12696160700A10D08 /* PPCollageViewExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E28AEED22696160700A10D08 /* PPCollageViewExampleUITests.swift */,
+				E28AEED42696160700A10D08 /* Info.plist */,
+			);
+			path = PPCollageViewExampleUITests;
+			sourceTree = "<group>";
+		};
+		E2B3F9FA2694C8C200242C70 = {
+			isa = PBXGroup;
+			children = (
+				E2B3FA062694C8C200242C70 /* PPCollageView */,
+				E2B3FA112694C8C200242C70 /* PPCollageViewTests */,
+				E28AEEAF2696160400A10D08 /* PPCollageViewExample */,
+				E28AEEC62696160700A10D08 /* PPCollageViewExampleTests */,
+				E28AEED12696160700A10D08 /* PPCollageViewExampleUITests */,
+				E2B3FA052694C8C200242C70 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E2B3FA052694C8C200242C70 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E2B3FA042694C8C200242C70 /* PPCollageView.framework */,
+				E2B3FA0D2694C8C200242C70 /* PPCollageViewTests.xctest */,
+				E28AEEAE2696160400A10D08 /* PPCollageViewExample.app */,
+				E28AEEC32696160700A10D08 /* PPCollageViewExampleTests.xctest */,
+				E28AEECE2696160700A10D08 /* PPCollageViewExampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E2B3FA062694C8C200242C70 /* PPCollageView */ = {
+			isa = PBXGroup;
+			children = (
+				E2B3FA072694C8C200242C70 /* PPCollageView.h */,
+				E2B3FA082694C8C200242C70 /* Info.plist */,
+				E28AEEE3269617F300A10D08 /* PPCollageClass.swift */,
+			);
+			path = PPCollageView;
+			sourceTree = "<group>";
+		};
+		E2B3FA112694C8C200242C70 /* PPCollageViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				E2B3FA122694C8C200242C70 /* PPCollageViewTests.swift */,
+				E2B3FA142694C8C200242C70 /* Info.plist */,
+			);
+			path = PPCollageViewTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		E2B3F9FF2694C8C200242C70 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2B3FA152694C8C200242C70 /* PPCollageView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		E28AEEAD2696160400A10D08 /* PPCollageViewExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E28AEEDB2696160700A10D08 /* Build configuration list for PBXNativeTarget "PPCollageViewExample" */;
+			buildPhases = (
+				E28AEEAA2696160400A10D08 /* Sources */,
+				E28AEEAB2696160400A10D08 /* Frameworks */,
+				E28AEEAC2696160400A10D08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PPCollageViewExample;
+			productName = PPCollageViewExample;
+			productReference = E28AEEAE2696160400A10D08 /* PPCollageViewExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E28AEEC22696160700A10D08 /* PPCollageViewExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E28AEEDC2696160700A10D08 /* Build configuration list for PBXNativeTarget "PPCollageViewExampleTests" */;
+			buildPhases = (
+				E28AEEBF2696160700A10D08 /* Sources */,
+				E28AEEC02696160700A10D08 /* Frameworks */,
+				E28AEEC12696160700A10D08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E28AEEC52696160700A10D08 /* PBXTargetDependency */,
+			);
+			name = PPCollageViewExampleTests;
+			productName = PPCollageViewExampleTests;
+			productReference = E28AEEC32696160700A10D08 /* PPCollageViewExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E28AEECD2696160700A10D08 /* PPCollageViewExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E28AEEDD2696160700A10D08 /* Build configuration list for PBXNativeTarget "PPCollageViewExampleUITests" */;
+			buildPhases = (
+				E28AEECA2696160700A10D08 /* Sources */,
+				E28AEECB2696160700A10D08 /* Frameworks */,
+				E28AEECC2696160700A10D08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E28AEED02696160700A10D08 /* PBXTargetDependency */,
+			);
+			name = PPCollageViewExampleUITests;
+			productName = PPCollageViewExampleUITests;
+			productReference = E28AEECE2696160700A10D08 /* PPCollageViewExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		E2B3FA032694C8C200242C70 /* PPCollageView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2B3FA182694C8C200242C70 /* Build configuration list for PBXNativeTarget "PPCollageView" */;
+			buildPhases = (
+				E2B3F9FF2694C8C200242C70 /* Headers */,
+				E2B3FA002694C8C200242C70 /* Sources */,
+				E2B3FA012694C8C200242C70 /* Frameworks */,
+				E2B3FA022694C8C200242C70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PPCollageView;
+			productName = PPCollageView;
+			productReference = E2B3FA042694C8C200242C70 /* PPCollageView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E2B3FA0C2694C8C200242C70 /* PPCollageViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2B3FA1B2694C8C200242C70 /* Build configuration list for PBXNativeTarget "PPCollageViewTests" */;
+			buildPhases = (
+				E2B3FA092694C8C200242C70 /* Sources */,
+				E2B3FA0A2694C8C200242C70 /* Frameworks */,
+				E2B3FA0B2694C8C200242C70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E2B3FA102694C8C200242C70 /* PBXTargetDependency */,
+			);
+			name = PPCollageViewTests;
+			productName = PPCollageViewTests;
+			productReference = E2B3FA0D2694C8C200242C70 /* PPCollageViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E2B3F9FB2694C8C200242C70 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					E28AEEAD2696160400A10D08 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					E28AEEC22696160700A10D08 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = E28AEEAD2696160400A10D08;
+					};
+					E28AEECD2696160700A10D08 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = E28AEEAD2696160400A10D08;
+					};
+					E2B3FA032694C8C200242C70 = {
+						CreatedOnToolsVersion = 12.4;
+						LastSwiftMigration = 1240;
+					};
+					E2B3FA0C2694C8C200242C70 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = E2B3F9FE2694C8C200242C70 /* Build configuration list for PBXProject "PPCollageView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E2B3F9FA2694C8C200242C70;
+			productRefGroup = E2B3FA052694C8C200242C70 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E2B3FA032694C8C200242C70 /* PPCollageView */,
+				E2B3FA0C2694C8C200242C70 /* PPCollageViewTests */,
+				E28AEEAD2696160400A10D08 /* PPCollageViewExample */,
+				E28AEEC22696160700A10D08 /* PPCollageViewExampleTests */,
+				E28AEECD2696160700A10D08 /* PPCollageViewExampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E28AEEAC2696160400A10D08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E28AEEBD2696160700A10D08 /* LaunchScreen.storyboard in Resources */,
+				E28AEEBA2696160700A10D08 /* Assets.xcassets in Resources */,
+				E28AEEB82696160500A10D08 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E28AEEC12696160700A10D08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E28AEECC2696160700A10D08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2B3FA022694C8C200242C70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2B3FA0B2694C8C200242C70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E28AEEAA2696160400A10D08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E28AEEB52696160500A10D08 /* ViewController.swift in Sources */,
+				E28AEEB12696160500A10D08 /* AppDelegate.swift in Sources */,
+				E28AEEB32696160500A10D08 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E28AEEBF2696160700A10D08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E28AEEC82696160700A10D08 /* PPCollageViewExampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E28AEECA2696160700A10D08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E28AEED32696160700A10D08 /* PPCollageViewExampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2B3FA002694C8C200242C70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E28AEEE4269617F300A10D08 /* PPCollageClass.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2B3FA092694C8C200242C70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2B3FA132694C8C200242C70 /* PPCollageViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E28AEEC52696160700A10D08 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E28AEEAD2696160400A10D08 /* PPCollageViewExample */;
+			targetProxy = E28AEEC42696160700A10D08 /* PBXContainerItemProxy */;
+		};
+		E28AEED02696160700A10D08 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E28AEEAD2696160400A10D08 /* PPCollageViewExample */;
+			targetProxy = E28AEECF2696160700A10D08 /* PBXContainerItemProxy */;
+		};
+		E2B3FA102694C8C200242C70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E2B3FA032694C8C200242C70 /* PPCollageView */;
+			targetProxy = E2B3FA0F2694C8C200242C70 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E28AEEB62696160500A10D08 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E28AEEB72696160500A10D08 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E28AEEBB2696160700A10D08 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E28AEEBC2696160700A10D08 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E28AEED52696160700A10D08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PPCollageViewExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.PPCollageViewExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E28AEED62696160700A10D08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PPCollageViewExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.PPCollageViewExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E28AEED72696160700A10D08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PPCollageViewExampleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.PPCollageViewExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PPCollageViewExample.app/PPCollageViewExample";
+			};
+			name = Debug;
+		};
+		E28AEED82696160700A10D08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PPCollageViewExampleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.PPCollageViewExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PPCollageViewExample.app/PPCollageViewExample";
+			};
+			name = Release;
+		};
+		E28AEED92696160700A10D08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PPCollageViewExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.PPCollageViewExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PPCollageViewExample;
+			};
+			name = Debug;
+		};
+		E28AEEDA2696160700A10D08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PPCollageViewExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.PPCollageViewExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PPCollageViewExample;
+			};
+			name = Release;
+		};
+		E2B3FA162694C8C200242C70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E2B3FA172694C8C200242C70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E2B3FA192694C8C200242C70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = PPCollageView/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.PPCollageView;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E2B3FA1A2694C8C200242C70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = PPCollageView/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.PPCollageView;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E2B3FA1C2694C8C200242C70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PPCollageViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.PPCollageViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E2B3FA1D2694C8C200242C70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PPCollageViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.PPCollageViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E28AEEDB2696160700A10D08 /* Build configuration list for PBXNativeTarget "PPCollageViewExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E28AEED52696160700A10D08 /* Debug */,
+				E28AEED62696160700A10D08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E28AEEDC2696160700A10D08 /* Build configuration list for PBXNativeTarget "PPCollageViewExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E28AEED72696160700A10D08 /* Debug */,
+				E28AEED82696160700A10D08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E28AEEDD2696160700A10D08 /* Build configuration list for PBXNativeTarget "PPCollageViewExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E28AEED92696160700A10D08 /* Debug */,
+				E28AEEDA2696160700A10D08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2B3F9FE2694C8C200242C70 /* Build configuration list for PBXProject "PPCollageView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2B3FA162694C8C200242C70 /* Debug */,
+				E2B3FA172694C8C200242C70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2B3FA182694C8C200242C70 /* Build configuration list for PBXNativeTarget "PPCollageView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2B3FA192694C8C200242C70 /* Debug */,
+				E2B3FA1A2694C8C200242C70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2B3FA1B2694C8C200242C70 /* Build configuration list for PBXNativeTarget "PPCollageViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2B3FA1C2694C8C200242C70 /* Debug */,
+				E2B3FA1D2694C8C200242C70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E2B3F9FB2694C8C200242C70 /* Project object */;
+}
